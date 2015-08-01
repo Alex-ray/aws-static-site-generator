@@ -1,0 +1,32 @@
+{
+  "name": "aws-static-site-generator",
+  "version": "0.0.0",
+  "description": "A AWS static site generator",
+  "main": "gulp",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-ray/aws-static-site-generator.git"
+  },
+  "author": "Alex J Ray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alex-ray/aws-static-site-generator/issues"
+  },
+  "homepage": "https://github.com/Alex-ray/aws-static-site-generator#readme",
+  "devDependencies": {
+    "connect-livereload": "^0.5.3",
+    "del": "^1.2.0",
+    "express": "^4.13.2",
+    "gulp": "^3.9.0",
+    "gulp-awspublish": "^2.0.2",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-embedlr": "^0.5.2",
+    "gulp-livereload": "^3.8.0",
+    "gulp-sass": "^2.0.4",
+    "tiny-lr": "^0.1.6"
+  }
+}
